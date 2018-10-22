@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+ body {
+     margin: 0;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+.bannerbackoff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("backofficebanner.jpg");
+    background-color: #CCCCCC;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65vh;
+    color: white;
+    padding-top: 3%;
+    padding-left: 7%;
+    font-size: 200%;
+}
+
+.bannerbackoff h4 {
+    font-size: 100%;
+}
+
+.bannerbackofftitle h1 {
+    font-size: 200%;
+}
+
+.bannerbackofftitle h2 {
+    margin-top: 3px;
+    font-size: 100%;
+}
+
+.bannerbackofftitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+.alternbackoff {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 60%;
+    padding-right: 6%;
+    position: relative;
+    bottom: 70px;
+}
+
+.alternbackoff a {
+    padding-right: 1%;
+    color: white;
+}
+
+.alternbackoff a.alternbackoffselect {
+    padding-right: 1%;
+    color: yellow;
+}
+
+.alternbackoff a:hover {
+    text-decoration: underline;
+}
+
+.navbarbackoff {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #35363D;
+    height: 7vh;
+    padding-left: 5.7%;
+}
+
+.navbarbackoff a {
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    font-size: 130%;
+    color: #B0B0B0;
+}
+
+.navbarbackoff a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarbackoff a.navbarbackoffselect {
+    color: white;
+}
+
+.divtablebackoff {
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-right: 7%;
+    font-size: 140%;
+}
+
+.tabelapedidos {
+    width: 100%;
+    border-spacing: 0px;
+    text-align: left;
+
+}
+
+.headpedidos th {
+    background-color: #DEE2E6;
+    padding: 1%;
+    padding-left: 2%;
+    color: black;
+    font-family: helvetica;
+    font-weight: 500;
+}
+
+.bodypedidos th {
+    padding: 0.8%;
+    padding-left: 2%;
+    border-bottom: solid  #DEE2E6 1.5px;
+    font-size: 90%;
+    color: #6B6C6D;
+    font-family: arial, helvetica;
+    font-weight: lighter;
+}
+
+.bodypedidos .statusbody {
+    text-align: center;
+    color: white;
+    font-size: 75%;
+    padding: 1%;
+}
+
+.statushead {
+    width: 20%;
+}
+
+.statusbody .boxcan {
+    background-color: #E82431;
+    border-radius: 5px;
+    align-content: center;
+    padding: 3%;
+    width: 70%;
+}
+
+.statusbody .boxent {
+    background-color: #28a745;
+    border-radius: 5px;
+    align-content: center;
+    padding: 3%;
+    width: 70%;
+}
+
+.statusbody .boxpen {
+    background-color: #007bff;
+    border-radius: 5px;
+    align-self: auto;
+    padding: 3%;
+    width: 70%;
+}
+
+.bodypedidos .verit {
+    color: #007bff;
+}
+
+.bodypedidos .verit:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bodypedidos .editar {
+    color: #FDDF4C;
+}
+
+.bodypedidos .editar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bodypedidos .excluir {
+    color: #E82431;
+}
+
+.bodypedidos .excluir:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.alterntablepedidos {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 100%;
+    font-weight: bold;
+}
+.alterntablepedidosblock {
+    display: inline-block;
+
+}
+
+.alterntablepedidosblock a  {
+    color: #007bff;
+    float: left;
+    padding: 8px 13px;
+    border: solid #CCCCCC 1px;
+    border-left: 0;
+}
+
+.alterntablepedidosblock a.alternpedidostableselect {
+    color: white;
+    background-color: #007bff;
+}
+
+.alternpedidostableselect:hover {
+    text-decoration: none;
+}
+
+.alterntablepedidosblock a:hover:not(.alternpedidostableselect) {
+    text-decoration: none;
+    background-color: #ddd;
+}
+
+.alterntablepedidosblock a:first-child {
+    border-left: solid #CCCCCC 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.alterntablepedidosblock a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.footerbackoff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 7vh;
+    margin-top: 10%;
+    font-size: 145%;
+}
+
+.footerbackoffright {
+    font-size: 70%;
+    position: relative;
+    bottom: 5px;
+}
